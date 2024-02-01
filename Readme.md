@@ -1,4 +1,4 @@
-# Rough
+# Wok
 
 Compiler for a simple programming language
 
@@ -33,4 +33,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 [List of contributors, libraries, etc.]
-

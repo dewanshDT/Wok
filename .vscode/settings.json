@@ -7,7 +7,7 @@
   "cmake.configureSettings": {
     "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"
   },
-  "cmake.buildArgs": ["--target", "rough"],
+  "cmake.buildArgs": ["--target", "wok"],
   "cmake.preferredGenerators": ["Ninja"],
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000
