@@ -1,0 +1,3 @@
+/home/projects/rough/build/CMakeFiles/rough.dir
+/home/projects/rough/build/CMakeFiles/edit_cache.dir
+/home/projects/rough/build/CMakeFiles/rebuild_cache.dir

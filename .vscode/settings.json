@@ -1,0 +1,14 @@
+{
+  "cmake.generator": "Ninja",
+  "cmake.configureOnOpen": true,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.toolchainFile": "", // Path to your toolchain file if needed
+  "cmake.configureArgs": ["-DCMAKE_BUILD_TYPE=${config:cmake.buildType}"],
+  "cmake.configureSettings": {
+    "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"
+  },
+  "cmake.buildArgs": ["--target", "rough"],
+  "cmake.preferredGenerators": ["Ninja"],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000
+}

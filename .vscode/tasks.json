@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cmake-configure",
+      "command": "cmake",
+      "args": ["-S", ".", "-B", "build/"],
+      "type": "shell"
+    },
+    {
+      "label": "cmake-build",
+      "command": "cmake",
+      "args": ["--build", "build"],
+      "type": "shell"
+    },
+    {
+      "label": "run-program",
+      "command": "./build/rough",
+      "type": "shell"
+    },
+    {
+      "label": "build-and-run",
+      "dependsOrder": "sequence",
+      "dependsOn": ["cmake-configure", "cmake-build", "run-program"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
