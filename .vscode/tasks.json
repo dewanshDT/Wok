@@ -14,14 +14,9 @@
       "type": "shell"
     },
     {
-      "label": "run-program",
-      "command": "./build/rough",
-      "type": "shell"
-    },
-    {
-      "label": "build-and-run",
+      "label": "build",
       "dependsOrder": "sequence",
-      "dependsOn": ["cmake-configure", "cmake-build", "run-program"],
+      "dependsOn": ["cmake-configure", "cmake-build"],
       "group": {
         "kind": "build",
         "isDefault": true
